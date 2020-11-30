@@ -1,0 +1,272 @@
+
+/* 
+Author: MD HUMAUN KOBIR;
+Mailing address: koirmdhumaun2000@gmail.com
+Website: hoynihobe.com
+*/
+
+/* 
+    ====INDEX====
+
+    1: header ;
+    2: Fusce at ; 
+    3: Facilisis ;
+    4: Ante donec;
+    5: Blandit rhoncus;
+    6: Placerat;
+    8: footer;
+                 
+*/
+
+
+
+/* global css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+h1{
+
+}
+h2{
+
+}
+h3{
+    color: #fff;
+    margin: 10px 0;
+}
+h4{
+
+}
+
+p{
+    color: #fff;
+}
+
+.custom-btn{
+    display: block;
+    color: #612316;
+    background: #fff;
+    padding: 10px 25px;
+    border: 1px solid #7b7370;
+    border-radius: 25px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+/* theme css */
+
+/*  header section start */
+
+    header{
+        background: #edeff1;
+        padding: 15px 0 !important;
+    }
+
+
+    .fa.fa-bars{
+        color: #000 !important;
+    }
+    .nav-item{
+        margin: 0 25px;
+    }
+    .nav-link{
+        color: #31353e;
+    }
+
+    .nav-link.js-scroll-trigger.active {
+        background: #dd4b2b;
+        padding: 7px 25px;
+        border-radius: 25px;
+        color: #fff;
+    }
+
+
+
+/* header section end */
+
+/* hero section start */
+
+.hero{
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(..//img/hero-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 0;
+}
+
+.hero-title{
+    padding: 150px 0 40px 0;
+    text-align: center;
+}
+
+.hero-title h1{
+    font-size: 65px;
+    color: #fff;
+}
+
+.hero-title h5{
+    font-size: 30px;
+    color: #fff;
+}
+
+.food-item{
+    text-align: center;
+}
+
+.custom-btn.hero-btn {
+    display: block;
+    margin: 40px auto;
+    color: #612316;
+    background: #fff;
+    padding: 20px 65px;
+    border: 1px solid #7b7370;
+    border-radius: 50px;
+}
+
+
+
+/* hero section end */
+
+
+/* news section start  */
+
+.news{
+    background: #edeff1;
+}
+.card{
+    border: none !important;
+    background: #edeff1 !important;
+}
+.card-body{
+    text-align: center;
+
+}
+
+.card-body h3{
+    color: #000;
+}
+
+.card-body p{
+    color: #000;
+}
+
+.card-btn{
+    color: #612316;
+    background: #fff;
+    padding: 5px 25px;
+    border: 1px solid #7b7370;
+    border-radius: 25px;
+}
+
+
+
+/* news section end */
+
+/* newsletter section start  */
+
+    .newsletter{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(..//img/nr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .newsletter-title h2{
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .form-control{
+        position: relative;
+        background: transparent;
+        border-radius: 50px;
+    }
+
+    .sumbit-btn{
+        position: absolute;
+        top: 0%;
+        right: 2%;
+        padding: 6px 25px;
+    }
+
+/* news letter section end */
+
+/* product sectoin start  */
+    .product-text{
+        margin: 30px 0;
+    }
+
+    .product-text h2{
+        font-size: 30px;
+        color: #000;
+        font-weight: 700;
+    }
+
+    .product-text p{
+        color: #0e0e0e
+    }
+
+    button.card-btn.product-btn {
+        background: #dd4b2b;
+        color: #fff;
+        padding: 10px 70px;
+        border-radius: 50px;
+    }
+
+    .product-btn-2{
+        background: #4b4e73;
+        color: #fff;
+        padding: 10px 70px;
+        border-radius: 50px;
+    }
+/* product section end */
+
+/* footer section start */
+
+.footer-top{
+    padding: 100px 0;
+    background: #dd4b2b;
+}
+    .f-top-text{
+        text-align: center;
+    }
+
+    .f-top-text ul li{
+        margin: 10px 0;
+    }
+
+    .f-top-text ul li a{
+        color: #fff;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+
+    .f-top-text ul li a:hover{
+        color: aqua;
+    }
+    
+    .footer-bottom{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px 0 250px 0;
+    }
+    
+    .f-bottom-text {
+        
+        text-align: center;
+    }
+
+    .f-bottom-text p{
+        color: #dfd3d3;
+    }
+
+/* footer section end */

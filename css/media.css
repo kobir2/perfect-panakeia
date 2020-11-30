@@ -1,0 +1,81 @@
+
+
+/* mobile device */
+
+@media (min-width: 320px) and (max-width: 500px){
+/*    
+    .fa.fa-bars{
+        color: rgb(89, 233, 32) !important;
+    } */
+
+    /* hero section start  */
+
+    .hero-title {
+        padding: 40px 0 40px 0;
+        text-align: center;
+    }
+    .hero-title h1 {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .hero-title h5 {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .food-item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* hero section end */
+
+    /* product setion start */
+        .product-text{
+            text-align: center;
+        }
+
+        .d-flex{
+            flex-direction: column-reverse;
+        }
+    /* product section end */
+
+    /* footer section start */
+    .footer-top {
+        padding: 50px 0;
+    }
+
+    .footer-bottom{
+        padding: 50px 0 100px 0;
+    }
+    /* footer section end */
+
+
+    
+}
+
+/* small device */
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/* medium device */
+
+@media (min-width: 768.01px) and (max-width: 992px){
+
+}
+
+
+/* desktop device */
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+}
+
+/* large device */
+
+@media (min-width: 1200.01px) {
+
+}
